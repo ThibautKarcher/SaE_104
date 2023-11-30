@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: rgb(22, 241, 241);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 6cm;
+    color: white;
+    background-image: url(image\ background\ site.jpg);
+}
+
+main {
+    width: 70%;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.entête {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#flag {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    padding: 5px 2px 5px 5px;
+    margin: 10px 10px 0px 0px;
+    border: solid white;
+}
+
+#flag:hover {
+    background-color: black;
+}
+
+ul {
+    width: 100%;
+    padding: 0;
+    margin-top: 2cm;
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a {
+    border: solid aqua;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.intro {
+    width: 100%;
+    height: 4cm;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+div {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.parcours {
+    border: solid white;
+    width: calc(80% / 2);
+}
+
+.centre_interet {
+    border: solid white;
+    width: calc(80% / 2);
+}
